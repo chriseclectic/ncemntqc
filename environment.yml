@@ -1,0 +1,16 @@
+name: ncemntqc
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pip:
+    - cvxpy
+    - cvxopt
+    - pylatexenc
+    - qiskit-ibmq-provider
+    - qiskit-terra
+    - qiskit-aer
+    - git+https://github.com/chriseclectic/qiskit-ignis.git@meas-mit
