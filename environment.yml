@@ -13,4 +13,4 @@ dependencies:
     - qiskit-ibmq-provider
     - qiskit-terra
     - qiskit-aer
-    - git+https://github.com/chriseclectic/qiskit-ignis.git@meas-mit
+    - git+https://github.com/Qiskit/qiskit-ignis
