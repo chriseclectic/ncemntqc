@@ -1,6 +1,6 @@
 name: ncemntqc
 dependencies:
-  - python
+  - python=3.7
   - numpy
   - scipy
   - jupyter
@@ -10,7 +10,7 @@ dependencies:
     - cvxpy
     - cvxopt
     - pylatexenc
-    - qiskit-ibmq-provider
-    - qiskit-terra
-    - qiskit-aer
-    - git+https://github.com/Qiskit/qiskit-ignis
+    - qiskit-ibmq-provider==0.9
+    - qiskit-terra==0.15.2
+    - qiskit-aer==0.6.1
+    - qiskit-ignis==0.5
