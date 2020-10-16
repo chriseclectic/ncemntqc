@@ -23,5 +23,3 @@ $ conda env create -f environment.yml
 ```
 
 To run experiments and generate data an IBM Quantum Experience account is also required. The saved experimental data can be loaded and used for running simulations and analysis used without an account.
-
-Note that the measurement error mitigation notebooks currently requires code from a master branch of [qiskit-ignis](https://github.com/qiskit/qiskit-ignis) which is automatically installed when using the `environment.yml` file.
